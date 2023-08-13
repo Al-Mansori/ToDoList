@@ -67,6 +67,14 @@ node app.js
 - Delete tasks from lists.
 - Create custom lists.
 
+
+## Technologies Used
+
+- Express.js: Web application framework for building APIs.
+- EJS: Templating engine for rendering views.
+- MongoDB: NoSQL database for storing article data.
+- Mongoose: MongoDB ODM for modeling and interacting with the database.
+
 ---
 
 Feel free to customize and extend this README file according to your needs. Enjoy using the ToDoList web application!
