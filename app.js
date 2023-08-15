@@ -13,7 +13,7 @@ if (port == null || port == "") {
   port = 3000;
 }
 
-const url = `${process.env.DB_URL}/todolistDB`;
+const url = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.${process.env.DB_CLUSTERNAME}.${process.env.DB_HOST}/todolistDB`;
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
 
 const ItemSchema = new mongoose.Schema({
