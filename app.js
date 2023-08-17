@@ -138,8 +138,6 @@ app.post("/delete", function (req, res) {
 });
 
 
-
-
 app.get("/:customListName", function (req, res) {
   listName = _.capitalize(req.params.customListName);
 
